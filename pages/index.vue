@@ -1,5 +1,7 @@
 <template>
-  <v-container fluid>
+  <Hero />
+  <!-- グリッドシステムのチェック -->
+  <!-- <v-container fluid>
     <v-row aline="center" justify="center">
       <v-col class="grey lighten-3" cols="8">
         <p>1</p>
@@ -9,7 +11,7 @@
         <p>2</p>
       </v-col>
     </v-row>
-  </v-container>
+  </v-container> -->
   <!-- <v-layout column justify-center align-center> -->
   <!-- <v-flex xs12 sm8 md6> -->
   <!-- <div class="text-center">
@@ -98,13 +100,14 @@
   <!-- </v-flex> -->
   <!-- </v-layout> -->
 </template>
-
 <script>
 // import Logo from '~/components/Logo.vue'
 // import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import Hero from '~/components/Hero.vue'
 
 export default {
   components: {
+    Hero,
     // Logo,
     // VuetifyLogo,
   },
