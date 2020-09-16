@@ -1,8 +1,8 @@
 <template>
-  <v-container fluid fill-height>
+  <v-container fluid class="primary--text">
     <v-row align="center" justify="center" class="my-6"
       ><v-col>
-        <v-row class="mx-2">
+        <v-row>
           <v-col> <h1>サービスの流れ</h1></v-col></v-row
         >
         <v-row>
@@ -22,7 +22,7 @@
             <v-card align="center">
               <v-card-title>2. 機械翻訳を実施</v-card-title>
               <v-img class="service-image pa-3" src="img/mt.svg" />
-              <v-card-text>DeepLを使用して機械翻訳を行います。test</v-card-text>
+              <v-card-text>DeepLを使用して機械翻訳を行います。</v-card-text>
             </v-card>
             <v-row align="center" justify="center" class="py-8"
               ><v-icon size="30">mdi-arrow-down-thick</v-icon></v-row

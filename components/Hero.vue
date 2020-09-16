@@ -1,14 +1,15 @@
 <template>
   <div>
-    <v-container fluid class="py-3 primary--text">
-      <v-row align="center" justify="center">
-        <v-col cols="12" md="6">
-          <h1>個人クリエイターのためのコンテンツ翻訳サービス</h1>
-          <v-card-subtitle>
+    <v-container fluid class="py-5 primary--text">
+      <v-row align="center">
+        <v-col justify="center" cols="12" md="6">
+          <h1 class="display-1 my-5">
+            個人クリエイターのためのコンテンツ翻訳サービス
+          </h1>
+          <p class="body">
             高精度機械翻訳とネイティブスピーカーにより、あなたの作品を世界に届けます。
-          </v-card-subtitle>
+          </p>
         </v-col>
-        <v-spacer />
         <v-col cols="12" md="6">
           <img class="heroimg" src="@/assets/img/heroimg.png"
         /></v-col>
