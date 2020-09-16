@@ -19,12 +19,10 @@
             <v-row align="center" justify="center" class="py-8"
               ><v-icon size="30">mdi-arrow-down-thick</v-icon></v-row
             >
-            <v-card>
+            <v-card align="center">
               <v-card-title>2. 機械翻訳を実施</v-card-title>
-              <v-img align="center" class="pa-3">
-                <img class="service-image" src="../assets/img/mt.svg"
-              /></v-img>
-              <v-card-text>DeepLを使用して機械翻訳を行います。</v-card-text>
+              <v-img class="service-image pa-3" src="img/mt.svg" />
+              <v-card-text>DeepLを使用して機械翻訳を行います。test</v-card-text>
             </v-card>
             <v-row align="center" justify="center" class="py-8"
               ><v-icon size="30">mdi-arrow-down-thick</v-icon></v-row
@@ -61,9 +59,6 @@
 export default {}
 </script>
 <style scoped>
-div {
-  /* background-color: white; */
-}
 .service-image {
   width: 60%;
 }

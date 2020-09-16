@@ -6,7 +6,7 @@
   </div>
   <!-- グリッドシステムのチェック -->
   <!-- <v-container fluid>
-    <v-row aline="center" justify="center">
+    <v-row align="center" justify="center">
       <v-col class="grey lighten-3" cols="8">
         <p>1</p>
       </v-col>
