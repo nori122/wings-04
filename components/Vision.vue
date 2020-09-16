@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid fill-height>
+  <v-container fluid fill-height color="primary">
     <v-row align="center" justify="center" class="my-6"
       ><v-col>
         <v-row class="mx-2">
@@ -25,6 +25,6 @@ export default {}
 </script>
 <style scoped>
 div {
-  background-color: lightskyblue;
+  /* background-color: lightskyblue; */
 }
 </style>

@@ -47,7 +47,7 @@
                 <img class="service-image" src="../assets/img/done.svg"
               /></v-img>
               <v-card-text
-                >翻訳が完了したブログ記事をお渡しします。Mediumや、Indiehackersに投稿したり、ご自身のブログに掲載し、世界中の話者へ届けましょう。</v-card-text
+                >翻訳がをお渡しします。Mediumや、Indiehackersに投稿したり、ご自身のブログに掲載し、世界中の話者へ届けましょう。</v-card-text
               >
             </v-card>
           </v-col>
@@ -62,7 +62,7 @@ export default {}
 </script>
 <style scoped>
 div {
-  background-color: white;
+  /* background-color: white; */
 }
 .service-image {
   width: 60%;
