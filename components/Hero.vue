@@ -1,12 +1,17 @@
 <template>
-  <div class="py-3">
-    <h1 color="primary--text">
-      個人クリエイターのためのコンテンツ翻訳サービス
-    </h1>
-    <v-card-subtitle-1>
-      高精度機械翻訳とネイティブスピーカーにより、あなたの作品を世界に届けます。
-    </v-card-subtitle-1>
-    <img class="heroimg" src="@/assets/img/heroimg.png" />
+  <div>
+    <v-container fluid class="py-3 primary--text">
+      <v-row>
+        <v-col>
+          <h1>個人クリエイターのためのコンテンツ翻訳サービス</h1>
+          <!-- <v-btn color="primary secondary--text">test</v-btn> -->
+          <v-card-subtitle-1>
+            高精度機械翻訳とネイティブスピーカーにより、あなたの作品を世界に届けます。
+          </v-card-subtitle-1>
+          <img class="heroimg" src="@/assets/img/heroimg.png" />
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
@@ -18,8 +23,5 @@ export default {
 <style scoped>
 .heroimg {
   width: 100vw;
-}
-div {
-  /* background: linear-gradient(white, lightskyblue); */
 }
 </style>
