@@ -1,5 +1,8 @@
 <template>
-  <Hero />
+  <div>
+    <Hero />
+    <Vision />
+  </div>
   <!-- グリッドシステムのチェック -->
   <!-- <v-container fluid>
     <v-row aline="center" justify="center">
@@ -104,12 +107,12 @@
 // import Logo from '~/components/Logo.vue'
 // import VuetifyLogo from '~/components/VuetifyLogo.vue'
 import Hero from '~/components/Hero.vue'
+import Vision from '~/components/Vision.vue'
 
 export default {
   components: {
     Hero,
-    // Logo,
-    // VuetifyLogo,
+    Vision,
   },
 }
 </script>

@@ -4,7 +4,7 @@
     <v-card-subtitle-1>
       高精度機械翻訳とネイティブスピーカーにより、あなたの作品を世界に届けます。
     </v-card-subtitle-1>
-    <img src="~/assets/img/heroimg.png" alt />
+    <img class="heroimg" src="@/assets/img/heroimg.png" />
   </div>
 </template>
 
@@ -13,3 +13,11 @@ export default {
   //   name: 'Hero',
 }
 </script>
+<style scoped>
+.heroimg {
+  width: 100vw;
+}
+div {
+  background: linear-gradient(white, lightskyblue);
+}
+</style>
