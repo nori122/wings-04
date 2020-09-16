@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Vision />
+    <Service />
   </div>
   <!-- グリッドシステムのチェック -->
   <!-- <v-container fluid>
@@ -108,11 +109,13 @@
 // import VuetifyLogo from '~/components/VuetifyLogo.vue'
 import Hero from '~/components/Hero.vue'
 import Vision from '~/components/Vision.vue'
+import Service from '~/components/Service.vue'
 
 export default {
   components: {
     Hero,
     Vision,
+    Service,
   },
 }
 </script>
