@@ -3,6 +3,7 @@
     <Hero />
     <Vision />
     <Service />
+    <Contact />
   </div>
   <!-- グリッドシステムのチェック -->
   <!-- <v-container fluid>
@@ -110,12 +111,14 @@
 import Hero from '~/components/Hero.vue'
 import Vision from '~/components/Vision.vue'
 import Service from '~/components/Service.vue'
+import Contact from '~/components/Contact.vue'
 
 export default {
   components: {
     Hero,
     Vision,
     Service,
+    Contact,
   },
 }
 </script>
