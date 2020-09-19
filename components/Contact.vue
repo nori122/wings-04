@@ -2,9 +2,6 @@
   <v-container fluid class="primary--text">
     <v-row align="center" justify="center" class="my-6"
       ><v-col>
-        <!-- <v-row>
-          <v-col> <h1>お問い合わせ</h1></v-col>
-        </v-row> -->
         <v-row
           ><v-col cols="12" md="6">
             <iframe
