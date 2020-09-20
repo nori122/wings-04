@@ -24,18 +24,3 @@
 <script>
 export default {}
 </script>
-
-<style lang="scss" scoped>
-.vision {
-  h1 {
-    font-family: 'Futura', serif;
-    font-size: 50px;
-  }
-  p {
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 14px;
-
-    // font-family: 'Oxanium', sans-serif;
-  }
-}
-</style>

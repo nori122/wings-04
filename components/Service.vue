@@ -14,8 +14,8 @@
           <v-row>
             <v-col cols="12">
               <v-card-title class="headline"
-                ><v-icon class="mr-5"
-                  >mdi-numeric-{{ step.number }}-circle</v-icon
+                ><v-icon class="mr-3" size="28"
+                  >mdi-numeric-{{ step.number }}-circle-outline</v-icon
                 >{{ step.title }}</v-card-title
               >
               <v-card-text v-text="step.detail"></v-card-text>
@@ -56,19 +56,10 @@ export default {
         number: 4,
         title: '翻訳完了',
         detail:
-          '翻訳されたコンテンツをお渡しします。Mediumや、Indiehackersに投稿したり、ご自身のブログに掲載し、世界中の話者へ届けましょう。',
+          '翻訳されたコンテンツをお渡しします。世界中の英語話者へ届けましょう。',
         src: 'img/done.svg',
       },
     ],
   }),
 }
 </script>
-<style scoped>
-/* .service-image {
-  width: 100%;
-} */
-h1 {
-  font-family: 'Futura', serif;
-  font-size: 50px;
-}
-</style>
