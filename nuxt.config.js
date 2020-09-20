@@ -60,6 +60,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    'nuxt-webfontloader',
   ],
   /*
    ** Axios module configuration
@@ -77,9 +78,9 @@ export default {
       light: true,
       themes: {
         light: {
-          primary: '#1a3674',
+          primary: '#E1F5FE',
           accent: colors.grey.darken3,
-          secondary: '#e1c68d',
+          secondary: '#686868',
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
@@ -102,4 +103,9 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  webfontloader: {
+    google: {
+      families: ['Noto+Serif+JP', 'Noto+Sans+JP', 'Kalam', 'Futura'],
+    },
+  },
 }

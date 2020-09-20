@@ -1,8 +1,8 @@
 <template>
-  <v-container fluid class="vision-wrapper primary white--text">
-    <v-row class="ma-2 my-md-12 py-md-12">
-      <v-col>
-        <h1 class="my-5">Vision</h1>
+  <v-container fluid class="vision-wrapper primary secondary--text">
+    <v-row class="ma-2 my-12 my-md-12 py-md-12">
+      <v-col class="vision">
+        <h1 align="center" class="my-5 font-weight-medium">VISION</h1>
         <p>
           WINGSは、個人クリエイターの発信を世界中の人々に届けるために創られました。
         </p>
@@ -24,3 +24,18 @@
 <script>
 export default {}
 </script>
+
+<style lang="scss" scoped>
+.vision {
+  h1 {
+    font-family: 'Futura', serif;
+    font-size: 50px;
+  }
+  p {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 14px;
+
+    // font-family: 'Oxanium', sans-serif;
+  }
+}
+</style>
