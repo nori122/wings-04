@@ -54,7 +54,7 @@
           <v-list-item-subtitle>
             個人向けコンテンツ翻訳サービス
           </v-list-item-subtitle>
-          <v-list-item-title class="title"> Wings </v-list-item-title>
+          <v-list-item-title class="mt-4 wings"> Wings </v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 
@@ -88,7 +88,12 @@
     </v-footer>
   </v-app>
 </template>
-
+<style scoped>
+.wings {
+  font-family: 'Kalam', serif;
+  font-size: 40px;
+}
+</style>
 <script>
 export default {
   data() {

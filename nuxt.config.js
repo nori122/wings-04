@@ -105,7 +105,14 @@ export default {
   build: {},
   webfontloader: {
     google: {
-      families: ['Noto+Serif+JP', 'Noto+Sans+JP', 'Kalam', 'Futura'],
+      families: [
+        'Noto+Serif+JP',
+        'Noto+Sans+JP',
+        'Kalam',
+        'Futura',
+        'M+PLUS+Rounded+1c',
+        'Sawarabi+Mincho',
+      ],
     },
   },
 }

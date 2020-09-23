@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid class="my-5">
+  <v-container fluid class="my-5 px-5 px-lg-8">
     <v-row align="center" justify="center" class="ma-2 my-6"
-      ><v-col>
+      ><v-col cols="12">
         <h1 align="center" class="my-5 font-weight-medium secondary--text">
           SERVICE
         </h1>
@@ -9,10 +9,10 @@
           <v-img class="service-image pa-3" src="img/mt.svg" />
         </v-card> -->
       </v-col>
-      <v-col v-for="(step, i) in steps" :key="i" cols="12">
-        <v-card primary>
-          <v-row>
-            <v-col cols="12">
+      <v-col v-for="(step, i) in steps" :key="i" cols="12" lg="3">
+        <v-card primary height="400px">
+          <v-row justify="center">
+            <v-col lg="12">
               <v-card-title class="headline"
                 ><v-icon class="mr-3" size="28"
                   >mdi-numeric-{{ step.number }}-circle-outline</v-icon
@@ -20,7 +20,7 @@
               >
               <v-card-text v-text="step.detail"></v-card-text>
             </v-col>
-            <v-col class="px-12 pb-12">
+            <v-col cols="10" lg="9">
               <v-img :src="step.src"></v-img>
             </v-col>
           </v-row>
@@ -42,7 +42,7 @@ export default {
       {
         number: 2,
         title: '機械翻訳を実施',
-        detail: 'DeepLを使用して機械翻訳を行います。',
+        detail: 'DeepLを使用してブログ記事に対して機械翻訳を行います。',
         src: 'img/mt.svg',
       },
       {
