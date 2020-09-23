@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Hero />
-    <Vision />
-    <Service />
-    <Contact />
+    <Hero id="Hero" />
+    <Vision id="Vision" />
+    <Service id="Service" />
+    <Contact id="Contact" />
   </div>
   <!-- グリッドシステムのチェック -->
   <!-- <v-container fluid>

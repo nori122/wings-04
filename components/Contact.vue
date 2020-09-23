@@ -1,6 +1,6 @@
 <template>
-  <v-container fluid class="mt-12 primary secondary--text">
-    <h1 align="center" class="mt-12 mb-5 font-weight-medium">CONTACT</h1>
+  <v-container fluid class="contact-wrapper primary secondary--text">
+    <h1 align="center" class="mb-5 font-weight-medium">CONTACT</h1>
     <p class="ma-5">サービスや値段についてなど、お気軽にお問い合わせください</p>
     <div class="text-center my-6">
       <v-btn
@@ -19,7 +19,11 @@
 export default {}
 </script>
 <style scoped>
-.service-image {
-  width: 60%;
+.contact-wrapper {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 </style>

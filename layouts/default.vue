@@ -49,14 +49,39 @@
       <!-- </v-container> -->
     </v-main>
     <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
-      <v-list>
+      <v-list-item>
+        <v-list-item-content>
+          <v-list-item-subtitle>
+            個人向けコンテンツ翻訳サービス
+          </v-list-item-subtitle>
+          <v-list-item-title class="title"> Wings </v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-divider></v-divider>
+      <v-list dense>
+        <v-list-item
+          v-for="item in items"
+          :key="item.title"
+          @click.prevent="onClick(item.path)"
+        >
+          <v-list-item-icon>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-content>
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+      <!-- <v-list>
         <v-list-item @click.native="right = !right">
           <v-list-item-action>
             <v-icon light> mdi-repeat </v-icon>
           </v-list-item-action>
           <v-list-item-title>Switch drawer (click me)</v-list-item-title>
         </v-list-item>
-      </v-list>
+      </v-list> -->
     </v-navigation-drawer>
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }} {{ title }}</span>
@@ -73,14 +98,29 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/',
+          icon: 'mdi-home',
+          title: 'Top',
+          path: '#Hero',
+        },
+        {
+          icon: 'mdi-lightbulb-on-outline',
+          title: 'Vision',
+          path: '#Vision',
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          title: 'Service',
+          path: '#Service',
+        },
+        {
+          icon: 'mdi-message-text-outline',
+          title: 'Contact',
+          path: 'https://forms.gle/7pQ6PnjvHtTj3Bb6A',
+        },
+        {
+          icon: 'mdi-post-outline',
+          title: '開発者ブログ',
+          path: 'https://obama.medium.com/@norito.sasaki',
         },
       ],
       miniVariant: false,
@@ -88,6 +128,18 @@ export default {
       rightDrawer: false,
       title: 'WINGS',
     }
+  },
+  methods: {
+    isInternalLink(path) {
+      return !/^https?:\/\//.test(path)
+    },
+    onClick(path) {
+      if (this.isInternalLink(path)) {
+        this.$router.push(path)
+      } else {
+        location.href = path
+      }
+    },
   },
 }
 </script>
