@@ -125,7 +125,7 @@ export default {
         {
           icon: 'mdi-post-outline',
           title: '開発者ブログ',
-          path: 'https://obama.medium.com/@norito.sasaki',
+          path: 'https://medium.com/@norito.sasaki',
         },
       ],
       miniVariant: false,

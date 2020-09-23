@@ -9,7 +9,7 @@
           <v-img class="service-image pa-3" src="img/mt.svg" />
         </v-card> -->
       </v-col>
-      <v-col v-for="(step, i) in steps" :key="i" cols="12" lg="3">
+      <v-col v-for="(step, i) in steps" :key="i" cols="12" md="6" lg="3">
         <v-card primary height="400px">
           <v-row justify="center">
             <v-col lg="12">
