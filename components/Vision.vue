@@ -4,7 +4,7 @@
       <v-col class="vision my-12">
         <h1 align="center" class="my-5 font-weight-medium">VISION</h1>
         <v-row justify="center"
-          ><v-col lg="7">
+          ><v-col class="text-lg-body-1" lg="6">
             <p>
               WINGSは、個人クリエイターの発信を世界中の人々に届けるために創られました。
             </p>

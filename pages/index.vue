@@ -39,10 +39,12 @@ export default {
 <style>
 h1 {
   font-family: 'Futura', serif;
-  font-size: 45px;
+
+  /* font-size: 45px; */
 }
 p {
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 14px;
+
+  /* font-size: 14px; */
 }
 </style>
