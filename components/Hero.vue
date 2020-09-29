@@ -3,15 +3,15 @@
     <div>
       <v-container fluid fill-height class="secondary--text">
         <v-row align="center" justify="center">
-          <v-col class="pa-lg-12" cols="10" lg="6" order-lg="3">
+          <v-col class="pa-lg-12" cols="10" md="6" lg="6" order-lg="3">
             <v-img src="img/heroimg.png"></v-img>
           </v-col>
-          <v-col class="text-center" cols="10" lg="4" order-lg="1">
+          <v-col class="text-center" cols="10" md="4" lg="4" order-lg="1">
             <h1 class="text-h4 text-lg-h3 py-5">
               あなたのプロダクトを、海外のユーザーに届けよう
             </h1>
             <h2 class="text-body-2 text-lg-h6 py-5" order-lg="2">
-              Wingsは、DeepLの機械翻訳と海外のネイティブスピーカーによる翻訳サービスです。ブログ記事の翻訳により、あなたのプロダクトを世界のユーザーに届けます。
+              Wingsは、機械翻訳とネイティブ話者による校正を組み合わせた、新しい翻訳サービスです。ブログ記事の翻訳により、あなたのプロダクトを世界のユーザーに届けます。
             </h2>
             <v-btn
               class="my-5 py-5"
