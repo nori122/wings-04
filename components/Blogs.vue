@@ -3,58 +3,29 @@
     <h1 align="center" class="py-6 mt-3 font-weight-medium">
       DEVELOPER'S BLOGS
     </h1>
-    <v-row justify="center">
-      <v-col cols="11" lg="6" class="text-center my-6">
-        <iframe
-          class="note-embed my-5"
-          src="https://note.com/embed/notes/na73cc8154c5c"
-          style="
-            border: 0;
-            display: block;
-            max-width: 99%;
-            width: 494px;
-            position: static;
-            visibility: visible;
-          "
-          height="400"
-        ></iframe>
-        <script
-          async
-          src="https://note.com/scripts/embed.js"
-          charset="utf-8"
-        ></script>
-
-        <iframe
-          class="note-embed my-5"
-          src="https://note.com/embed/notes/ncd698b7e7c1b"
-          style="
-            border: 0;
-            display: block;
-            max-width: 99%;
-            width: 494px;
-            position: static;
-            visibility: visible;
-          "
-          height="400"
-        ></iframe>
-        <script
-          async
-          src="https://note.com/scripts/embed.js"
-          charset="utf-8"
-        ></script>
+    <v-row align="center" justify="center">
+      <v-col cols="11" class="body-2">
+        (2020/10/09)<br /><a
+          class="secondary--text"
+          href="https://note.com/wingsblogs/n/na73cc8154c5c"
+          >限定5名！ご自身のプロダクトについてのブログ記事を無料で翻訳します。
+        </a>
+      </v-col>
+      <v-col cols="11" class="body-2">
+        (2020/10/09)<br /><a
+          class="secondary--text"
+          href="https://note.com/wingsblogs/n/ncd698b7e7c1b"
+          >海外のユーザーを獲得したい方へ！英語圏の定番プラットフォーム4選</a
+        >
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
-export default {}
-</script>
-<style scoped>
-.contact-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+export default {
+  data() {
+    return {}
+  },
 }
-</style>
+</script>
