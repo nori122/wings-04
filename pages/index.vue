@@ -4,6 +4,7 @@
     <Vision id="Vision" />
     <Service id="Service" />
     <Contact id="Contact" />
+    <Blogs id="Blogs" />
   </div>
   <!-- グリッドシステムのチェック -->
   <!-- <v-container fluid>
@@ -16,7 +17,7 @@
         <p>2</p>
       </v-col>
     </v-row>
-  </v-container> -->
+  </v-container>-->
 </template>
 <script>
 // import Logo from '~/components/Logo.vue'
@@ -24,6 +25,7 @@
 import Hero from '~/components/Hero.vue'
 import Vision from '~/components/Vision.vue'
 import Service from '~/components/Service.vue'
+import Blogs from '~/components/Blogs.vue'
 import Contact from '~/components/Contact.vue'
 
 export default {
@@ -31,6 +33,7 @@ export default {
     Hero,
     Vision,
     Service,
+    Blogs,
     Contact,
   },
 }
