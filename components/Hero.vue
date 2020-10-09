@@ -8,7 +8,7 @@
           </v-col>
           <v-col class="text-center" cols="10" md="4" lg="4" order-lg="1">
             <h1 class="text-h4 text-lg-h3 py-5">
-              あなたのプロダクトを、海外のユーザーに届けよう
+              プロダクトを、海外のユーザーに届けよう
             </h1>
             <h2 class="text-body-2 text-lg-h6 py-5" order-lg="2">
               Wingsは、機械翻訳とネイティブ話者による校正を組み合わせた、新しい翻訳サービスです。ブログ記事の翻訳により、あなたのプロダクトを世界のユーザーに届けます。
@@ -19,8 +19,8 @@
               color="accent"
               href="https://forms.gle/7pQ6PnjvHtTj3Bb6A"
               dark
-              >お問い合わせ
-            </v-btn>
+              >お問い合わせ</v-btn
+            >
           </v-col>
         </v-row>
       </v-container>

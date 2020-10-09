@@ -6,7 +6,7 @@
       :clipped="clipped"
       fixed
       app
-    > -->
+    >-->
     <!-- <v-list>
         <v-list-item
           v-for="(item, i) in items"
@@ -22,19 +22,19 @@
             <v-list-item-title v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
-      </v-list> -->
+    </v-list>-->
     <!-- </v-navigation-drawer> -->
     <v-app-bar :clipped-left="clipped" fixed app>
       <!-- <v-app-bar-nav-icon @click.stop="drawer = !drawer" /> -->
       <!-- <v-btn icon @click.stop="miniVariant = !miniVariant">
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
-      </v-btn> -->
+      </v-btn>-->
       <!-- <v-btn icon @click.stop="clipped = !clipped">
         <v-icon>mdi-application</v-icon>
       </v-btn>
       <v-btn icon @click.stop="fixed = !fixed">
         <v-icon>mdi-minus</v-icon>
-      </v-btn> -->
+      </v-btn>-->
       <!-- <v-toolbar-title v-text="title" /> -->
       <v-img src="img/icon.png" max-height="40" max-width="40" contain></v-img>
       <v-img src="img/wings.png" max-height="40" max-width="90" contain></v-img>
@@ -51,10 +51,8 @@
     <v-navigation-drawer v-model="rightDrawer" :right="right" temporary fixed>
       <v-list-item>
         <v-list-item-content>
-          <v-list-item-subtitle>
-            個人向けコンテンツ翻訳サービス
-          </v-list-item-subtitle>
-          <v-list-item-title class="mt-4 wings"> Wings </v-list-item-title>
+          <!-- <v-list-item-subtitle>個人向けコンテンツ翻訳サービス</v-list-item-subtitle> -->
+          <v-list-item-title class="mt-4 wings">Wings</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
 
@@ -81,7 +79,7 @@
           </v-list-item-action>
           <v-list-item-title>Switch drawer (click me)</v-list-item-title>
         </v-list-item>
-      </v-list> -->
+      </v-list>-->
     </v-navigation-drawer>
     <v-footer :absolute="!fixed" app>
       <span>&copy; {{ new Date().getFullYear() }} {{ title }}</span>
@@ -124,8 +122,8 @@ export default {
         },
         {
           icon: 'mdi-post-outline',
-          title: '開発者ブログ',
-          path: 'https://medium.com/@norito.sasaki',
+          title: 'Wingsブログ',
+          path: 'https://note.com/wingsblogs',
         },
       ],
       miniVariant: false,
