@@ -3,8 +3,8 @@
     <Hero id="Hero" />
     <Vision id="Vision" />
     <Service id="Service" />
-    <Contact id="Contact" />
     <Blogs id="Blogs" />
+    <Contact id="Contact" />
   </div>
   <!-- グリッドシステムのチェック -->
   <!-- <v-container fluid>

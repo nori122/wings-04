@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="contact-wrapper primary secondary--text">
+  <v-container fluid class="contact-wrapper secondary--text">
     <h1 align="center" class="mb-5 font-weight-medium">CONTACT</h1>
     <p class="ma-5">サービスや値段についてなど、お気軽にお問い合わせください</p>
     <div class="text-center my-6">
