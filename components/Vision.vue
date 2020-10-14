@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="vision-wrapper primary secondary--text">
+  <v-container fluid class="vision-wrapper secondary--text">
     <v-row class="ma-2 my-12 my-md-12 py-md-12">
       <v-col class="vision my-12">
         <h1 align="center" class="my-5 font-weight-medium">VISION</h1>

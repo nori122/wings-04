@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="my-5 px-5 px-lg-8">
+  <v-container fluid class="my-5 px-5 px-lg-8" primary>
     <v-row align="center" justify="center" class="ma-2 my-6"
       ><v-col cols="12">
         <h1 align="center" class="my-5 font-weight-medium secondary--text">

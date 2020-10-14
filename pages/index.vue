@@ -1,8 +1,8 @@
 <template>
   <div>
     <Hero id="Hero" />
-    <Vision id="Vision" />
     <Service id="Service" />
+    <Vision id="Vision" />
     <Blogs id="Blogs" />
     <Contact id="Contact" />
   </div>
