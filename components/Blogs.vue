@@ -4,14 +4,14 @@
       DEVELOPER'S BLOGS
     </h1>
     <div class="my-5 py-5">
-      <div>
+      <!-- <div>
         <span>(2020/10/09)</span><br />
         <a
           class="secondary--text"
           href="https://note.com/wingsblogs/n/na73cc8154c5c"
           >限定5名！ご自身のプロダクトについてのブログ記事を無料で翻訳します。
         </a>
-      </div>
+      </div> -->
       <div>
         <br />
         <span>(2020/10/09)</span><br />
